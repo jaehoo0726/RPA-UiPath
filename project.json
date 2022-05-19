@@ -3,8 +3,12 @@
   "description": "엑셀에서 MES(SBM-ERP)로 자동 입력",
   "main": "Main.xaml",
   "dependencies": {
+    "Google.Apis.Drive.v3": "[1.55.0.2566]",
+    "Google.Apis.Sheets.v4": "[1.55.0.2371]",
     "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.GSuite.Activities": "[1.16.2]",
     "UiPath.Mail.Activities": "[1.15.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[1.14.1]",
     "UiPath.System.Activities": "[22.4.1]",
     "UiPath.UIAutomation.Activities": "[22.4.4]"
   },
