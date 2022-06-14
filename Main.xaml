@@ -975,7 +975,7 @@
                                                                                     <OutArgument x:TypeArguments="x:Boolean">[Bool]</OutArgument>
                                                                                   </Assign.To>
                                                                                   <Assign.Value>
-                                                                                    <InArgument x:TypeArguments="x:Boolean">[varNote.Contains(“사유”)]</InArgument>
+                                                                                    <InArgument x:TypeArguments="x:Boolean">[varNote.Contains(“사유:”)]</InArgument>
                                                                                   </Assign.Value>
                                                                                 </Assign>
                                                                                 <If Condition="[varNote &lt;&gt;&quot;주말&quot; or varNote &lt;&gt; &quot;공휴일&quot; or Bool &lt;&gt; True]" sap:VirtualizedContainerService.HintSize="588,1630" sap2010:WorkflowViewState.IdRef="If_8">
